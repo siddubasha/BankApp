@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body style="background-color:   #66FF66
+;"
+>
+<h2 style="text-align:center; text-decoration:underline;">Welcome to Transactions</h2>
+
+<center><form  action="get" method="get">
+ <p>To check balance press on checkBalance Button</p>
+<input type="submit" name=submit value="CheckBalance">
+</form>
+
+<form action="deposit" method="get">
+<p> Enter money to deposit and press on Deposit Button</p>
+<input type="number" min="100" name="deposit" placeholder="Deposit">
+
+<input type="submit" name="submit" value="Depositmoney">
+</form>
+<br>
+<br>
+<p> Enter Money to with draw and press on Withdraw Button</p>
+<form action="with" method="get">
+<input type="number" min="100" name="withdraw" placeholder="Withdraw">
+<input type="submit" name="submit" value="WithDraw">
+</form>
+
+<br>
+<br>
+
+<form action="transfer" method="get">
+<p>Enter AccountNo for whom you want to transfer and press on Transfer Button</p>
+<input type="text" name="idN"  placeholder="AccountNo">
+<br>
+<p>Enter Money to transfer</p>
+<input type="number" min="100" name="transfer" placeholder="transfer">
+<br>
+<br>
+<input type="submit" name="transfer" value="transfer">
+</form>
+</center>
+</body>
+</html>
